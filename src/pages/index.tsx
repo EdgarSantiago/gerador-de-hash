@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import { BinaryToTextEncoding, createHash } from "crypto";
 import { useState } from "react";
 
@@ -38,7 +37,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <h1>Gerador de hashs</h1>
         <div>
           <h1>Você está gerando hashs do tipo: {hashType}</h1>
